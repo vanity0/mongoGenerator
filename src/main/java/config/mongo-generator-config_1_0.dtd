@@ -18,7 +18,7 @@
                 beanClose CDATA #IMPLIED
                 name CDATA #REQUIRED>
 
-        <!ELEMENT collection ()>
+        <!ELEMENT collection ANY>
         <!ATTLIST collection
                 name CDATA #REQUIRED
                 beanClose CDATA #IMPLIED
@@ -28,7 +28,7 @@
                 template IDREFS #IMPLIED
                 >
 
-        <!ELEMENT template ()>
+        <!ELEMENT template ANY>
         <!ATTLIST template
                 id ID #REQUIRED
                 name CDATA #REQUIRED
